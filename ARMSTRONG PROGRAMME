@@ -1,0 +1,19 @@
+public class Multiplication 
+{
+     public static int sum(int j)
+     {
+          int sum=0;
+		      for( int i=1;i<=j;i++)
+		          {
+			           if((i%5==0) || (i%3==0)){
+				         sum=sum+i;
+			        }
+		 }
+	       	return sum;
+	}
+
+	public static void main(String[] args)
+	{
+		     int sum1=sum(20);
+          System.out.println(sum1);}
+  }
